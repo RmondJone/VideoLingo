@@ -107,6 +107,29 @@ conda activate videolingo
 python install.py
 ```
 
+MACOS 可以不需要Conda 环境安装：
+```
+brew install cmake
+brew install llvm@20 
+```
+
+配置环境变量：
+```
+#LLVM
+export PATH="/usr/local/opt/llvm@20/bin:$PATH"
+export LDFLAGS="-L/usr/local/opt/llvm@20/lib"
+export CPPFLAGS="-I/usr/local/opt/llvm@20/include"
+export CMAKE_PREFIX_PATH="/usr/local/opt/llvm@20"
+export LLVM_CONFIG=$(brew --prefix llvm@20)/bin/llvm-config
+export CMAKE_BIN=/usr/local/bin/cmake
+```
+
+安装依赖：
+```
+pip install -r requirements.txt
+```
+
+
 3. 启动应用
 
 ```bash
