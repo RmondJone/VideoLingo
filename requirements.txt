@@ -3,7 +3,7 @@ pytorch-lightning==2.3.3
 lightning==2.3.3
 transformers==4.48.0
 moviepy==1.0.3
-numpy==2.0.2
+numpy==1.26.4
 openai==1.55.3
 opencv-python==4.10.0.84
 openpyxl==3.1.5
