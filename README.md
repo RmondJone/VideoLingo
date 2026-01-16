@@ -141,7 +141,7 @@ streamlit run st.py
 
 ```bash
 docker build -t videolingo .
-docker run -d -p 8501:8501 --gpus all videolingo
+docker run -d -p 8505:8501 videolingo
 ```
 
 ## API
