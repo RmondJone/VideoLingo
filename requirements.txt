@@ -22,15 +22,9 @@ InquirerPy
 autocorrect-py
 ctranslate2==4.6.0
 edge-tts
-#cmake
-#wheel
-#llvmlite
-torch==2.1.1
-torchaudio==2.1.1
-pyannote-audio==3.1.1
 
 #demucs[dev] @ git+https://github.com/adefossez/demucs
-demucs @ git+https://github.com/adefossez/demucs
+demucs @ git+https://github.com/RmondJone/demucs
 whisperx @ git+https://github.com/RmondJone/whisperx.git
 
 syllables
